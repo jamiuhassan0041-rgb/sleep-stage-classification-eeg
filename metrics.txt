@@ -1,0 +1,17 @@
+epochs: 9913, subjects: 10
+majority-class baseline accuracy: 0.435
+accuracy: 0.807
+macro F1: 0.748
+Cohen's kappa: 0.737
+
+              precision    recall  f1-score   support
+
+        Wake      0.853     0.902     0.877      1760
+          N1      0.436     0.408     0.422       764
+          N2      0.903     0.821     0.860      4312
+          N3      0.819     0.906     0.860      1483
+         REM      0.684     0.764     0.722      1594
+
+    accuracy                          0.807      9913
+   macro avg      0.739     0.760     0.748      9913
+weighted avg      0.810     0.807     0.807      9913
