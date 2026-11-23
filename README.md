@@ -24,8 +24,8 @@ Accuracy 0.807 (majority-class baseline 0.435), macro F1 0.748, Cohen's kappa 0.
 
 Per-subject accuracy ranged from 0.737 (subject 4) to 0.857 (subject 6).
 
-![Confusion matrix](results/confusion_matrix.png)
-![Example hypnogram](results/hypnogram_example.png)
+![Confusion matrix](confusion_matrix.png)
+![Example hypnogram](hypnogram_example.png)
 
 ## What I found
 - Deep sleep (N3) and wake were identified best (recall 0.91 and 0.90), followed by N2 (0.82). Slow delta activity makes N3 easy to recognise from band power.
